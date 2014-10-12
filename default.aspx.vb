@@ -24,6 +24,8 @@ Partial Class _Default
         Dim loanAmortTbl As DataTable = New DataTable("AmortizationTable")
         Dim tRow As DataRow
 
+        
+
         'This section adds default values to the variables.  
         interestPaid = 0.0
 
@@ -96,6 +98,7 @@ Partial Class _Default
         tbLoanAmt.Text = ""
         tbAnnualInterest.Text = ""
         tbLoanTerm.Text = ""
+        lblMonthlyPmt.Text = ""
 
     End Sub
 End Class
