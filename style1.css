@@ -1,0 +1,18 @@
+body { background-color:#FFB50D; color:black; }
+h1{text-align:center; font-size:27pt}
+/* Custom classes -Start */
+/* MWC */
+.bold {font-weight:bold; font-size:24px;}
+
+/* Custom classes - END */
+<style type="text/css">
+/* CSS to format the gridview -- START*/
+.cssgridview { width:auto; margin:5px 0 10px 0; border:solid 1px #820CE8; border-collaps; text-align:center; font-family: "Comic Sans MS"; }
+.cssgridview td { padding:10px; border:solid 1px #c1c1c1; color:#820CE8; }
+.cssgridview th { padding:10px; color:#fff; background:#424242 url(./style/grd_head.png) repeat-x top; border-left:solid 1px #820CE8; font-size:0.9em; }
+/*.cssgridview .alt {background-color:aqua;}*/
+.cssgridview tr:nth-child(even) { background-color:#E8820C;}
+.cssgridview tr:nth-child(odd) { background-color:#82B3E8;}
+/* CSS to format the gridview -- END*/
+</style>
+
