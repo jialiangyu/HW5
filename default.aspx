@@ -33,7 +33,11 @@
         <br />
         <asp:Button ID="btnclear" runat="server" Text="Clear" Width="83px" />
         
-        <br /><br />
+        <br />
+        <br />
+        <asp:Label ID="lb" runat="server" Text="Welcome to mortgage calculator, and please type your inputs"></asp:Label>
+        <br />
+        <br />
                 
         Monthly Payment: &nbsp; <asp:Label ID="lblMonthlyPmt" runat="server"></asp:Label>
         
